@@ -44,7 +44,6 @@ catch (Exception ex)
     Console.WriteLine("Помилка: " + ex.Message);
 }
 
-//генерація елементів масиву
 static void RandArray(int[] Mas)
 {
     Random m = new Random();
@@ -54,7 +53,6 @@ static void RandArray(int[] Mas)
     }
 }
 
-//виведення масиву на екран
 static void PrintArray(int[] Mas)
 {
     foreach (int el in Mas)
