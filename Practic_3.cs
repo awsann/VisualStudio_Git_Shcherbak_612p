@@ -12,6 +12,7 @@ try
     PrintArray(a);
     int index = First(a);
     index += 1;
+    //умова index недорівнює 0
     if (index !=0 )
     {
         Console.WriteLine("Номер першого парного елемента: " + index);
